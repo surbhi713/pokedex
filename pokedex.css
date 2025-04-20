@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+    text-align: center;
+    margin: 70px;
+}
+
+#pokeInput{
+    width: 15%;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+button{
+    width: 7%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+#pokemon {
+    margin-top: 30px;
+  }
+
+img {
+    width: 150px;
+}
+
+.type {
+     text-transform: capitalize;
+      display: inline-block;
+      margin: 5px;
+      padding: 5px 10px;
+      background: #eee;
+      border-radius: 5px;
+    }
