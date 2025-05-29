@@ -7,7 +7,7 @@ async function getPokemon() {
     try{
         const res = await fetch(url);
         const data = await res.json();
-        console.log(data)
+        // console.log(data)
 
         const types = data.types.map(t => `<span class="type">${t.type.name}</span>`).join('');
         const stats = data.stats.map(s => `<li>${s.stat.name}: ${s.base_stat}</li>`).join('');
