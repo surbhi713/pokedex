@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: black;
     text-align: center;
     margin: 70px;
 }
@@ -23,6 +23,25 @@ button{
 
 img {
     width: 150px;
+}
+
+h1{
+    color: darksalmon;
+}
+
+h2{
+    color: rgb(177, 177, 44);
+}
+
+h3{
+    color: white;
+}
+ul{
+    color: white;
+}
+
+#hello{
+    color: whitesmoke;
 }
 
 .type {

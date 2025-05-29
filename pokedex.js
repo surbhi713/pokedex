@@ -14,13 +14,13 @@ async function getPokemon() {
 
 
         pokemon.innerHTML=`
-        <h2>${data.name.toUpperCase()} (#${data.id}) </h2>
+        <h2 id="hello">${data.name.toUpperCase()} (#${data.id}) </h2>
         <img src = "${data.sprites.front_default}" alt="${data.name}">
         <img src ="${data.sprites.back_default}" alt="${data.name}">
         <h3>weight:${data.weight}</h3>
         <div>${types}</div>
         <h3>Base Stats: </h3>
-        <ul style="list-style: none; padding: 0;">${stats}</ul>`
+        <ul style="list-style: none; gap:10; padding: 0;">${stats}</ul>`
 
         // <h1>helli</h1>    
 
